@@ -1,0 +1,21 @@
+.linkContainer {
+  padding-top: 0;
+  margin-bottom: 2rem;
+}
+
+.linkImage {
+  float: left;
+  height: 3rem;
+  margin-right: 2rem;
+}
+
+.linkText {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 3rem;
+}
+
+.linkColLeft {
+  padding-left: 0;
+}

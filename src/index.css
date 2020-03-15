@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'FuturaMedium';
+  src: url(./fonts/FuturaMedium.ttf) format('truetype');
+  src: local('FuturaMedium'), url(./fonts/FuturaMedium.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: FuturaMedium !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
