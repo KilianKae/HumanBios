@@ -58,25 +58,6 @@ function Home() {
               This will minimize the exposure to the virus, in both directions
               between personal and patient.
             </p>
-
-            <p>
-              We’ll operate on following principles, extracted from [Joi Ito,
-              Jeff Howe, Whiplash]:
-            </p>
-
-            <ul>
-              <li>Empathy</li>
-              <li>Emergence over Authority</li>
-              <li>Pull over Push</li>
-              <li>Compasses over Maps</li>
-              <li>Risk over Safety</li>
-              <li>Disobedience over Compliance</li>
-              <li>Practice over Theory</li>
-              <li>Diversity over Ability</li>
-              <li>Resilience over Strength</li>
-              <li>Systems over Objects</li>
-              <li>Apply 3. and 5. on 1. - 9.</li>
-            </ul>
           </Col>
         </Row>
         <Row>
