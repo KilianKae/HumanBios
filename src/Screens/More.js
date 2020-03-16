@@ -23,7 +23,7 @@ function Home() {
           </Col>
         </Row>
         <Row>
-          <Col sm={12} className='contentCol'>
+          <Col md={6} sm={12} className='contentCol'>
             <h3 className='subtitle'>
               Human BiOS; Mission Statement 1.0 (rolling updates)
             </h3>
@@ -51,107 +51,96 @@ function Home() {
               The infrastructure will be built from existing, reusable
               components of several open and proprietary components (WeChat,
               Facebook, Telegram, Whatsapp, Discord, Skype, Riot. im, Status.
-              im, [remove links pls] Google hangout). Sufficient redundancy and
-              the use of pre-existing software will allow rapid deployment at
-              large scale to provide a stable environment for caretaking
-              personnel to perform their tasks while in quarantine or remotely.
-              This will minimize the exposure to the virus, in both directions
-              between personal and patient.
+              im, Google hangout). Sufficient redundancy and the use of
+              pre-existing software will allow rapid deployment at large scale
+              to provide a stable environment for caretaking personnel to
+              perform their tasks while in quarantine or remotely. This will
+              minimize the exposure to the virus, in both directions between
+              personal and patient.
             </p>
           </Col>
-        </Row>
-        <Row>
-          <Col sm={12} className='contentCol textContainer'>
-            <h3 className='subtitle'>Wie beruhigt man jemanden?</h3>
+          <Col md={6} sm={12} className='contentCol textContainer'>
+            <h3 className='subtitle'>How do you calm someone down?</h3>
             <p class='block_1'>
-              Du beruhigst eine Person am besten, indem du ihr zuhörst. Frag
-              sie, wie es ihr geht. Versuche nicht, ihr die Sorgen auszureden
-              und spiele sie nicht herunter. Jemand, der beunruhigt ist, braucht
-              keine Statistiken, sondern ein offenes Ohr!
+              The best way to calm a person is to listen to them. Ask them how
+              they are. Don't try to talk them out of their worries and don't
+              play them down. Someone who is worried does not need a lesson in
+              statistics, but an open heart!
             </p>
-            <p class='block_1'>Mach kurze Sätze.</p>
-            <p class='block_1'>Lass die Person nicht allein.</p>
-            <p class='block_1'>Halte Augenkontakt und zeig, dass du zuhörst.</p>
+            <p class='block_1'>Make short sentences.</p>
+            <p class='block_1'>Do not leave the person alone.</p>
             <p class='block_1'>
-              Stell ab und zu Nachfragen, mit dem Ziel, noch besser zu
-              verstehen, wovor die Person Angst hat.
+              Make eye contact and show that you are listening.
+            </p>
+            <p class='block_1'>
+              Ask questions from time to time to better understand what the
+              person is afraid of.
             </p>
             <ul class='list_'>
               <li class='block_2'>
-                Gehört sie selbst einer Risikogruppe an und befürchtet an einer
-                Infektion zu sterben?
+                Does the person belong to a risk group and is afraid of dying
+                from an infection?
               </li>
               <li class='block_3'>
-                Hat sie Eltern oder Großeltern, um die sie sich sorgt?
+                Do they have parents or grandparents they care about?
               </li>
               <li class='block_3'>
-                Befürchtet sie, dass das Gesundheitssystem überlastet wird und
-                es zu einem Notstand kommt?
+                Do they fear that the health care system will be overburdened
+                and finally break down?
               </li>
               <li class='block_3'>
-                Befürchtet sie Engpässe bei Medikamenten oder Nahrungsmitteln?
+                Do they fear shortages of medicines or food?
               </li>
               <li class='block_3'>
-                Hat sie ihre Arbeit verloren oder fürchtet allgemein eine
-                wirtschaftliche Rezession?
+                Did they lose their job or are they afraid of an economic
+                recession in general?
               </li>
-              <li class='block_4'>Oder all das zusammen?</li>
+              <li class='block_4'>Or all of these together?</li>
             </ul>
             <p class='block_1'>
-              Alle diese Ängste und Sorgen werden von vielen Menschen geteilt.
-              Gib der Person das Gefühl, dass es okay ist, dass sie Angst hat,
-              und dass du bei ihr bleibst. Sag ihr, dass du auch manchmal Angst
-              hast, aber fang nicht an, über deine eigenen Ängste zu reden. Du
-              bist jetzt gerade mit Zuhören dran.
+              All these fears and worries are shared by many people. Make the
+              person feel that it is okay that they are scared and that you will
+              stay with them. Tell them that you are sometimes scared too, but
+              don't start talking about your own fears. It's your turn to listen
+              right now. Let the person talk.
             </p>
-            <p class='block_1'>Lass die Person reden.</p>
+            <p class='block_1'>Let the person talk.</p>
             <p class='block_1'>
-              Stell <i class='calibre1'>offene</i> Fragen, z.B. „Was macht dir
-              Angst?“ statt „Hast du Angst?“ Finde heraus, was die Person
-              beschützen möchte, was sie befürchtet, zu verlieren.
-            </p>
-            <p class='block_1'>
-              Stell keine Fragen mit <i class='calibre1'>warum</i> oder{' '}
-              <i class='calibre1'>wieso</i>, z.B. nicht „Wieso beunruhigt dich
-              das?“ Das kann Druck erzeugen, jetzt eine gute Erklärung oder
-              Begründung finden zu müssen.
+              Ask open questions, like "What's scaring you?" instead of "Are you
+              scared?" Find out what the person wants to protect, what they fear
+              to lose.
             </p>
             <p class='block_1'>
-              Wenn du dich damit wohlfühlst, kannst du von Zeit zu Zeit in
-              deinen eigenen Worten wiederholen, was die Person gesagt hat und
-              fragen, ob du es so richtig verstanden hast. Versuch dabei,
-              besonders die Gefühle aufzugreifen &ndash; die Wut, die Trauer,
-              die Verzweiflung.
+              Don't ask questions about why or how, like, "Why does this bother
+              you?" This can create pressure to find a good explanation or
+              justification.
             </p>
             <p class='block_1'>
-              Stell sicher, dass die Person alles loswerden kann, was in ihr
-              vorgeht. Frag immer weiter nach und ermutige sie, die Sorgen zu
-              Ende zu denken.
+              If you feel comfortable with this, you can repeat from time to
+              time in your own words what the person said and ask whether you
+              understood it correctly. Try to focus on feelings in particular -
+              the anger, the sadness, the despair.
             </p>
             <p class='block_1'>
-              Wenn du das Gefühl hast, dass sie wirklich alles sagen konnte,
-              frag sie, was ihr jetzt guttun würde. Frag sie auch, was du tun
-              könntest, damit es ihr besser geht. Manchmal gibt es etwas
-              Konkretes, das du tun kannst.
+              Make sure that the person can express everything that is going on
+              inside them. Keep asking questions and encourage them to think the
+              worries through.
             </p>
             <p class='block_1'>
-              Es kann das Gefühl aufkommen, dass der Person gerade gar nichts
-              hilft. Dieses Gefühl kann man aushalten. Versuche nicht, es
-              wegzumachen, z.B. indem du gute Ratschläge gibst. Denk daran: Es
-              hilft der Person schon, dass du überhaupt für sie da bist!
+              If you feel that they really told everything, ask them what would
+              be good for them now. Also ask them what you could do to make them
+              feel better. Sometimes there's something concrete you can do. It
+              may feel like nothing is helping that person right now. You should
+              embrace that feeling. Do not try to get rid of it, for example by
+              giving good advice. Remember: It helps that you are there for
+              them! Offer to get back to them after a certain time and ask them
+              what they will do until then.
             </p>
             <p class='block_1'>
-              Biete an, dass du dich nach einer bestimmten Zeit wieder bei ihr
-              meldest und frag sie, was sie bis dahin tun wird.
-            </p>
-            <p class='block_1'>
-              Wenn du versprochen hast, dich noch einmal zu melden, halte es
-              unbedingt ein.
-            </p>
-            <p class='block_1'>
-              Falls es dir nach dem Gespräch nicht gut geht, nimm das Telefon
-              und vertraue dich selbst jemandem an. Denn Angst trennt. Sie wird
-              kleiner, wenn wir uns mit anderen verbinden.
+              If you have promised to get back in touch, make sure you keep it.
+              If you feel unwell after the conversation, pick up the phone and
+              talk to a friend. Because fear separates us. When we connect with
+              others, it gets smaller.
             </p>
           </Col>
         </Row>

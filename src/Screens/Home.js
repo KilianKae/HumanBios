@@ -43,7 +43,7 @@ function Home() {
           <Col lg={{ span: 4, offset: 2 }} sm={12} className='contentCol'>
             <h3 className='subtitle'>Links</h3>
             <ImageLink name='Facebook' logo={facebook} />
-            <ImageLink name="What's App" logo={whatsapp} />
+            <ImageLink name='WhatsApp' logo={whatsapp} />
             <ImageLink name='Telegram' logo={telegram} />
           </Col>
           <Col lg={3} sm={12} className='contentCol'>
