@@ -1,0 +1,57 @@
+.landing-container {
+  background-color: #4ca580;
+  min-height: 100vh;
+}
+
+.container {
+  padding-top: 60px;
+}
+
+.logoRow {
+  margin-bottom: 6rem;
+}
+
+.logo {
+  height: 4rem;
+}
+
+.titleRow {
+  margin-bottom: 3rem;
+}
+
+.title {
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.subtitle {
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+}
+
+.contentCol {
+  margin-bottom: 3rem;
+}
+
+.projectText {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+.moreText {
+  background-color: white;
+  color: #4ca580;
+  padding: 3px;
+  padding-left: 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.moreLink:hover {
+  color: #4ca580;
+  text-decoration: none;
+}
