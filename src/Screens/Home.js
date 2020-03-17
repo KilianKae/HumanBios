@@ -13,7 +13,7 @@ import whatsapp from '../img/whatsapp.png';
 import paypal from '../img/paypal.png';
 import ethereum from '../img/ethereum.png';
 import mail from '../img/mail.png';
-import square from '../img/square.png';
+import bitcoin from '../img/bitcoin.png';
 
 const etherAddress = 'test';
 const bitcoinAddress = 'bc1qflh35vx3wc6qayten35u3fl59teduhfmk3q5n7';
@@ -80,7 +80,7 @@ function Home() {
                 className='copyButton'
                 onClick={() => copyToClipboard(bitcoinAddress)}
               >
-                <ImageLink name='Bitcoin' logo={square} />
+                <ImageLink name='Bitcoin' logo={bitcoin} />
               </div>
             </div>
             <div className='d-none d-lg-block'>
