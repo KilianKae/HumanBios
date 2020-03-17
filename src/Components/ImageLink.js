@@ -7,8 +7,11 @@ function ImageLink(props) {
     <Container className='linkContainer'>
       <Row className='justify-content-start'>
         <Col className='linkColLeft'>
-          <img className='linkImage' fluid src={props.logo} alt='' />
-          <h3 className='linkText'>{props.name}</h3>
+          <a href={props.link} className='link'>
+            {' '}
+            <img className='linkImage' src={props.logo} alt='' />
+            <h3 className='linkText'>{props.name}</h3>{' '}
+          </a>
         </Col>
       </Row>
     </Container>

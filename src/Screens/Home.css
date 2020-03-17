@@ -8,7 +8,7 @@
 }
 
 .logoRow {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 .logo {
@@ -54,4 +54,8 @@
 .moreLink:hover {
   color: #4ca580;
   text-decoration: none;
+}
+
+.copyButton:hover {
+  cursor: pointer;
 }

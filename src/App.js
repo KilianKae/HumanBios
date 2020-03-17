@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Home from './Screens/Home.js';
 import More from './Screens/More.js';
+import Impressum from './Screens/Impressum.js';
+import Research from './Screens/Research.js';
 
 function App() {
   return (
@@ -16,6 +18,12 @@ function App() {
           </Route>
           <Route path='/more'>
             <More />
+          </Route>
+          <Route path='/impressum'>
+            <Impressum />
+          </Route>
+          <Route path='/research'>
+            <Research />
           </Route>
         </Switch>
       </div>

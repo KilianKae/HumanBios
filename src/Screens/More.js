@@ -23,7 +23,7 @@ function Home() {
           </Col>
         </Row>
         <Row>
-          <Col md={6} sm={12} className='contentCol'>
+          <Col md={5} sm={12} className='contentCol'>
             <h3 className='subtitle'>
               Human BiOS; Mission Statement 1.0 (rolling updates)
             </h3>
@@ -59,7 +59,11 @@ function Home() {
               personal and patient.
             </p>
           </Col>
-          <Col md={6} sm={12} className='contentCol textContainer'>
+          <Col
+            md={{ span: 6, offset: 1 }}
+            sm={12}
+            className='contentCol textContainer'
+          >
             <h3 className='subtitle'>How do you calm someone down?</h3>
             <p class='block_1'>
               The best way to calm a person is to listen to them. Ask them how
