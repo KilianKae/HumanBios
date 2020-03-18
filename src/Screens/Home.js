@@ -46,8 +46,8 @@ function Home() {
             <Link className='moreLink' to='/more'>
               <h3 className='moreText'>More</h3>
             </Link>
-            <Link className='moreLink' to='/research'>
-              <h3 className='moreText'>Research</h3>
+            <Link className='moreLink' to='/botspec'>
+              <h3 className='moreText'>Bot Spec</h3>
             </Link>
             <Link className='moreLink' to='/impressum'>
               <h3 className='moreText'>Impressum</h3>

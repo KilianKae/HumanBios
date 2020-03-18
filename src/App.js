@@ -6,7 +6,7 @@ import './App.css';
 import Home from './Screens/Home.js';
 import More from './Screens/More.js';
 import Impressum from './Screens/Impressum.js';
-import Research from './Screens/Research.js';
+import BotSpec from './Screens/BotSpec.js';
 
 function App() {
   return (
@@ -22,8 +22,8 @@ function App() {
           <Route path='/impressum'>
             <Impressum />
           </Route>
-          <Route path='/research'>
-            <Research />
+          <Route path='/botspec'>
+            <BotSpec />
           </Route>
         </Switch>
       </div>
