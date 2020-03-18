@@ -15,7 +15,7 @@ import ethereum from '../img/ethereum.png';
 import mail from '../img/mail.png';
 import bitcoin from '../img/bitcoin.png';
 
-const etherAddress = 'test';
+const etherAddress = '0xA5c72fED11FfC3b2A1dAff7d4cE6Ce5204e1ed03';
 const bitcoinAddress = 'bc1qflh35vx3wc6qayten35u3fl59teduhfmk3q5n7';
 
 function Home() {
@@ -75,7 +75,12 @@ function Home() {
                 logo={paypal}
                 link='http://paypal.me/humanbios'
               />
-              <ImageLink name='Ethereum' logo={ethereum} />
+              <div
+                className='copyButton'
+                onClick={() => copyToClipboard(etherAddress)}
+              >
+                <ImageLink name='Ethereum' logo={ethereum} />
+              </div>
               <div
                 className='copyButton'
                 onClick={() => copyToClipboard(bitcoinAddress)}

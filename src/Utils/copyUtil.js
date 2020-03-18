@@ -17,7 +17,5 @@ export function copyToClipboard(str) {
   document.execCommand('copy');
   // Temporäres Element löschen
   document.body.removeChild(el);
-  alert(
-    'Copied bitcoin address to clipboard! (bc1qflh35vx3wc6qayten35u3fl59teduhfmk3q5n7)'
-  );
+  alert('Copied address to clipboard! ' + str);
 }
