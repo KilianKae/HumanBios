@@ -80,4 +80,4 @@ function BotSpec() {
   );
 }
 
-export default Research;
+export default BotSpec;

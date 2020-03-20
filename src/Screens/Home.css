@@ -56,6 +56,14 @@
   text-decoration: none;
 }
 
+.donateLink:hover {
+  text-decoration: none;
+}
+
+.donateLinkText {
+  color: black;
+}
+
 .copyButton:hover {
   cursor: pointer;
 }

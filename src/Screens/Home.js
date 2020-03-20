@@ -46,9 +46,18 @@ function Home() {
             <Link className='moreLink' to='/more'>
               <h3 className='moreText'>More</h3>
             </Link>
-            <Link className='moreLink' to='/botspec'>
+            <a
+              className='moreLink'
+              href='https://notes.status.im/_zy_XbciTQqQDzVrnTJ7TA?edit'
+            >
               <h3 className='moreText'>Bot Spec</h3>
-            </Link>
+            </a>
+            <a
+              className='moreLink'
+              href='https://notes.status.im/d6mDFuFhRbCsgR-vLUz7Rw?edit'
+            >
+              <h3 className='moreText'>Heuristic</h3>
+            </a>
             <Link className='moreLink' to='/impressum'>
               <h3 className='moreText'>Impressum</h3>
             </Link>
@@ -64,12 +73,17 @@ function Home() {
             <ImageLink
               name='Telegram'
               logo={telegram}
-              link='https://t.me/humanbios_0'
+              link='https://t.me/HumanbiOS_bot'
             />
           </Col>
           <Col lg={3} sm={12} className='contentCol'>
             <div>
-              <h3 className='subtitle'>Donate</h3>
+              <a
+                className='donateLink'
+                href='https://notes.status.im/KhZ_4IFfSrmgIBONfDRI0Q?edit'
+              >
+                <h3 className='subtitle donateLinkText'>Donate</h3>
+              </a>
               <ImageLink
                 name='PayPal'
                 logo={paypal}
