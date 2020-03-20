@@ -44,8 +44,14 @@ function Home() {
               at home.
             </p>
             <Link className='moreLink' to='/more'>
-              <h3 className='moreText'>More</h3>
+              <h3 className='moreText'>Mission</h3>
             </Link>
+            <a
+              className='moreLink'
+              href='https://hackmd.io/p0vKHdtAR4C1ygXadeTncA?view'
+            >
+              <h3 className='moreText'>Bot Spec</h3>
+            </a>
             <Link className='moreLink' to='/resources'>
               <h3 className='moreText'>Resources and Guidelines</h3>
             </Link>

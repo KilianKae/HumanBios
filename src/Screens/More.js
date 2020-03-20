@@ -58,12 +58,18 @@ function More() {
               minimize the exposure to the virus, in both directions between
               personal and patient.
             </p>
-            <a
-              className='moreLink'
-              href='https://www.lucidchart.com/documents/edit/796e77e3-d111-4e6d-994f-a6f6d0f95bbd/X0gI5YTrFhs7?beaconFlowId=C54FCBF331FDC679'
-            >
-              <h3 className='moreText'>Phase 0</h3>
-            </a>
+            <div>
+              <iframe
+                allowfullscreen
+                frameborder='0'
+                style={{
+                  width: '100%',
+                  height: '800px'
+                }}
+                src='https://www.lucidchart.com/documents/embeddedchart/796e77e3-d111-4e6d-994f-a6f6d0f95bbd'
+                id='ZGlIv2nLTUcz'
+              ></iframe>
+            </div>
           </Col>
         </Row>
       </Container>
