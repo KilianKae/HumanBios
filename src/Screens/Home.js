@@ -46,18 +46,9 @@ function Home() {
             <Link className='moreLink' to='/more'>
               <h3 className='moreText'>More</h3>
             </Link>
-            <a
-              className='moreLink'
-              href='https://notes.status.im/_zy_XbciTQqQDzVrnTJ7TA?edit'
-            >
-              <h3 className='moreText'>Bot Spec</h3>
-            </a>
-            <a
-              className='moreLink'
-              href='https://notes.status.im/d6mDFuFhRbCsgR-vLUz7Rw?edit'
-            >
-              <h3 className='moreText'>Heuristic</h3>
-            </a>
+            <Link className='moreLink' to='/resources'>
+              <h3 className='moreText'>Resources and Guidelines</h3>
+            </Link>
             <Link className='moreLink' to='/impressum'>
               <h3 className='moreText'>Impressum</h3>
             </Link>
