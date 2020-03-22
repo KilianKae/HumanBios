@@ -48,9 +48,9 @@ function Home() {
             </Link>
             <a
               className='moreLink'
-              href='https://hackmd.io/p0vKHdtAR4C1ygXadeTncA?view'
+              href='https://t.me/joinchat/KTRuxhl949aHv0atuWPtyw'
             >
-              <h3 className='moreText'>Bot Spec</h3>
+              <h3 className='moreText'>Dev Chat</h3>
             </a>
             <Link className='moreLink' to='/resources'>
               <h3 className='moreText'>Resources and Guidelines</h3>

@@ -30,6 +30,15 @@ function Resources() {
             >
               <h3 className='moreText'>Emergency Heuristic</h3>
             </a>
+            <a
+              className='moreLink'
+              href='https://hackmd.io/p0vKHdtAR4C1ygXadeTncA?view'
+            >
+              <h3 className='moreText'>Bot Spec</h3>
+            </a>
+            <a className='moreLink' href='https://github.com/HumanbiOS'>
+              <h3 className='moreText'>Github</h3>
+            </a>
           </Col>
           <Col
             md={{ span: 7, offset: 2 }}
