@@ -7,9 +7,7 @@ import { copyToClipboard } from '../Utils/copyUtil';
 
 import logo from '../img/logo.png';
 
-import facebook from '../img/facebook.png';
 import telegram from '../img/telegram.png';
-import whatsapp from '../img/whatsapp.png';
 import paypal from '../img/paypal.png';
 import ethereum from '../img/ethereum.png';
 import mail from '../img/mail.png';
@@ -61,14 +59,8 @@ function Home() {
           </Col>
           <Col lg={{ span: 4, offset: 2 }} sm={12} className='contentCol'>
             <h3 className='subtitle'>Links</h3>
-            <ImageLink name='Facebook' logo={facebook} />
             <ImageLink
-              name='WhatsApp'
-              logo={whatsapp}
-              link='https://chat.whatsapp.com/EDLmZGMuT5eJBkQNq5vIcn'
-            />
-            <ImageLink
-              name='Telegram'
+              name='Try our Telegram!'
               logo={telegram}
               link='https://t.me/HumanbiOS_bot'
             />
