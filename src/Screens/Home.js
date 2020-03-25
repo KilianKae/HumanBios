@@ -15,6 +15,7 @@ import bitcoin from '../img/bitcoin.png';
 
 const etherAddress = '0xA5c72fED11FfC3b2A1dAff7d4cE6Ce5204e1ed03';
 const bitcoinAddress = 'bc1qflh35vx3wc6qayten35u3fl59teduhfmk3q5n7';
+const emailLink = 'mailto:info@humanbios.org';
 
 function Home() {
   return (
@@ -93,21 +94,13 @@ function Home() {
             </div>
             <div className='d-none d-lg-block'>
               <h3 className='subtitle'>Contact</h3>
-              <ImageLink
-                name='Email'
-                logo={mail}
-                link='mailto:humanbiasorg@gmail.com'
-              />
+              <ImageLink name='Email' logo={mail} link={emailLink} />
             </div>
           </Col>
           <Col lg={3} sm={12} className='contentCol d-lg-none d-xl-none'>
             <div>
               <h3 className='subtitle'>Contact</h3>
-              <ImageLink
-                name='Email'
-                logo={mail}
-                link='mailto:humanbiasorg@gmail.com'
-              />
+              <ImageLink name='Email' logo={mail} link={emailLink} />
             </div>
           </Col>
         </Row>
