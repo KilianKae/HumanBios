@@ -12,6 +12,7 @@ import paypal from '../img/paypal.png';
 import ethereum from '../img/ethereum.png';
 import mail from '../img/mail.png';
 import bitcoin from '../img/bitcoin.png';
+import facebook from '../img/facebook.png';
 
 const etherAddress = '0xA5c72fED11FfC3b2A1dAff7d4cE6Ce5204e1ed03';
 const bitcoinAddress = 'bc1qflh35vx3wc6qayten35u3fl59teduhfmk3q5n7';
@@ -42,9 +43,9 @@ function Home() {
               doctors to help them as much as possible while everyone stays safe
               at home.
             </p>
-            <Link className='moreLink' to='/more'>
+            <a className='moreLink' href='https://medium.com/@humanbios'>
               <h3 className='moreText'>Mission</h3>
-            </Link>
+            </a>
             <a
               className='moreLink'
               href='https://t.me/joinchat/KTRuxhl949aHv0atuWPtyw'
@@ -62,8 +63,13 @@ function Home() {
             <h3 className='subtitle'>Links</h3>
             <ImageLink
               name='Try our Telegram!'
-              logo={telegram}
+              logo={facebook}
               link='https://t.me/HumanbiOS_bot'
+            />
+            <ImageLink
+              name='Facebook'
+              logo={telegram}
+              link='https://www.facebook.com/humanbios.org'
             />
           </Col>
           <Col lg={3} sm={12} className='contentCol'>
