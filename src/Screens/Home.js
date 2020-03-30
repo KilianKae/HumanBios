@@ -52,9 +52,15 @@ function Home() {
             >
               <h3 className='moreText'>Dev Chat</h3>
             </a>
-            <Link className='moreLink' to='/resources'>
-              <h3 className='moreText'>Resources and Guidelines</h3>
-            </Link>
+            <a
+              className='moreLink'
+              href='https://hackmd.io/p0vKHdtAR4C1ygXadeTncA?view'
+            >
+              <h3 className='moreText'>Bot Spec</h3>
+            </a>
+            <a className='moreLink' href='https://github.com/HumanbiOS'>
+              <h3 className='moreText'>Github</h3>
+            </a>
             <Link className='moreLink' to='/impressum'>
               <h3 className='moreText'>Impressum</h3>
             </Link>
