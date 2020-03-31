@@ -69,12 +69,12 @@ function Home() {
             <h3 className='subtitle'>Links</h3>
             <ImageLink
               name='Try our Telegram!'
-              logo={facebook}
+              logo={telegram}
               link='https://t.me/HumanbiOS_bot'
             />
             <ImageLink
               name='Facebook'
-              logo={telegram}
+              logo={facebook}
               link='https://www.facebook.com/humanbios.org'
             />
           </Col>
