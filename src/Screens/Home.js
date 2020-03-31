@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactPlayer from 'react-player'
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import './Home.css';
@@ -31,6 +32,15 @@ function Home() {
           <Col>
             <h1 className='title'>Human Bios</h1>
           </Col>
+        </Row>
+        <Row className='videoRow'>
+          <ReactPlayer
+            className='video'
+            url="https://vimeo.com/402227952"
+            playing
+            controls
+            width='100%'
+            height='100%' />
         </Row>
         <Row>
           <Col lg={3} sm={12} className='contentCol'>
@@ -69,12 +79,12 @@ function Home() {
             <h3 className='subtitle'>Links</h3>
             <ImageLink
               name='Try our Telegram!'
-              logo={facebook}
+              logo={telegram}
               link='https://t.me/HumanbiOS_bot'
             />
             <ImageLink
               name='Facebook'
-              logo={telegram}
+              logo={facebook}
               link='https://www.facebook.com/humanbios.org'
             />
           </Col>
