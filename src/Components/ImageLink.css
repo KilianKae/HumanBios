@@ -1,17 +1,18 @@
 .linkContainer {
   padding-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: .5rem;
 }
 
 .linkImage {
   float: left;
-  height: 3rem;
-  margin-right: 2rem;
+  height: 2.5rem;
+  margin-right: 1rem;
 }
 
 .linkText {
   color: white;
   font-weight: bold;
+  font-size: small;
   letter-spacing: 2px;
   line-height: 3rem;
 }
