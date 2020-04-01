@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactPlayer from 'react-player'
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Image } from 'react-bootstrap';
@@ -23,14 +23,39 @@ function Home() {
   return (
     <div className='landing-container'>
       <Container>
-        <Row className='logoRow'>
-          <Col>
-            <Image className='logo' src={logo} />
-          </Col>
-        </Row>
         <Row className='titleRow'>
           <Col>
-            <h1 className='title'>Human Bios</h1>
+            <h3 className='title'>Human Bios</h3>
+          </Col>
+        </Row>
+        <Row className='navRow'>
+          <Col lg={2} sm={12}>
+            <a className='navLink' href='https://medium.com/@humanbios'>
+              <h3 className='navText'>Mission</h3>
+            </a>
+          </Col>
+          <Col lg={2} sm={12}>
+            <a className='navLink'
+              href='https://t.me/joinchat/KTRuxhl949aHv0atuWPtyw'>
+              <h3 className='navText'>Dev Chat</h3>
+            </a>
+          </Col>
+          <Col lg={4} sm={12}>
+            <a className='botLink' href='https://t.me/HumanbiOS_bot'>
+              <img className='logo' src={logo} alt=''></img>
+              <span className='botText'>Try the Prototype!</span>
+            </a>
+          </Col>
+          <Col lg={2} sm={12}>
+            <a className='navLink'
+              href='https://hackmd.io/p0vKHdtAR4C1ygXadeTncA?view'>
+              <h3 className='navText'>Bot Spec</h3>
+            </a>
+          </Col>
+          <Col lg={2} sm={12}>
+            <a className='navLink' href='https://github.com/HumanbiOS'>
+              <h3 className='navText'>Github</h3>
+            </a>
           </Col>
         </Row>
         <Row className='videoRow'>
@@ -42,58 +67,12 @@ function Home() {
             width='100%'
             height='100%' />
         </Row>
-        <Row>
-          <Col lg={3} sm={12} className='contentCol'>
-            <h3 className='subtitle'>Project</h3>
-            <p className='projectText'>
-              During the corona pandemic, care taking personal has to be
-              protected. They are our best chance for healing, but face the same
-              risks as everyone. The Human Bios Project will connect people over
-              the internet with social workers, nurses, medical students and
-              doctors to help them as much as possible while everyone stays safe
-              at home.
-            </p>
-            <a className='moreLink' href='https://medium.com/@humanbios'>
-              <h3 className='moreText'>Mission</h3>
-            </a>
-            <a
-              className='moreLink'
-              href='https://t.me/joinchat/KTRuxhl949aHv0atuWPtyw'
-            >
-              <h3 className='moreText'>Dev Chat</h3>
-            </a>
-            <a
-              className='moreLink'
-              href='https://hackmd.io/p0vKHdtAR4C1ygXadeTncA?view'
-            >
-              <h3 className='moreText'>Bot Spec</h3>
-            </a>
-            <a className='moreLink' href='https://github.com/HumanbiOS'>
-              <h3 className='moreText'>Github</h3>
-            </a>
-            <Link className='moreLink' to='/impressum'>
-              <h3 className='moreText'>Impressum</h3>
-            </Link>
-          </Col>
-          <Col lg={{ span: 4, offset: 2 }} sm={12} className='contentCol'>
-            <h3 className='subtitle'>Links</h3>
-            <ImageLink
-              name='Try our Telegram!'
-              logo={telegram}
-              link='https://t.me/HumanbiOS_bot'
-            />
-            <ImageLink
-              name='Facebook'
-              logo={facebook}
-              link='https://www.facebook.com/humanbios.org'
-            />
-          </Col>
+        <Row className='socialRow'>
           <Col lg={3} sm={12} className='contentCol'>
             <div>
               <a
                 className='donateLink'
-                href='https://notes.status.im/KhZ_4IFfSrmgIBONfDRI0Q?edit'
-              >
+                href='https://notes.status.im/KhZ_4IFfSrmgIBONfDRI0Q?edit'>
                 <h3 className='subtitle donateLinkText'>Donate</h3>
               </a>
               <ImageLink
@@ -103,28 +82,32 @@ function Home() {
               />
               <div
                 className='copyButton'
-                onClick={() => copyToClipboard(etherAddress)}
-              >
+                onClick={() => copyToClipboard(etherAddress)}>
                 <ImageLink name='Ethereum' logo={ethereum} />
               </div>
               <div
                 className='copyButton'
-                onClick={() => copyToClipboard(bitcoinAddress)}
-              >
+                onClick={() => copyToClipboard(bitcoinAddress)}>
                 <ImageLink name='Bitcoin' logo={bitcoin} />
               </div>
             </div>
-            <div className='d-none d-lg-block'>
-              <h3 className='subtitle'>Contact</h3>
-              <ImageLink name='Email' logo={mail} link={emailLink} />
-            </div>
           </Col>
-          <Col lg={3} sm={12} className='contentCol d-lg-none d-xl-none'>
+          <Col lg={3} sm={12} className='contentCol'>
             <div>
               <h3 className='subtitle'>Contact</h3>
               <ImageLink name='Email' logo={mail} link={emailLink} />
             </div>
+            <ImageLink
+              name='Facebook'
+              logo={facebook}
+              link='https://www.facebook.com/humanbios.org'
+            />
           </Col>
+        </Row>
+        <Row className='footer'>
+          <Link className='navLink' to='/impressum'>
+            <h5 className='navText' id='impressum'>Impressum</h5>
+          </Link>
         </Row>
       </Container>
     </div>
