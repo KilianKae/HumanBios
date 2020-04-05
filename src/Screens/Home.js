@@ -27,6 +27,10 @@ function Home() {
           <Col>
             <h3 className='title'>Human Bios</h3>
           </Col>
+
+          <a className='supportLink' href='https://medium.com/@humanbios/would-you-like-to-support-us-8651396cc998'>
+            <div className='supportText'>Want to support?</div>
+          </a>
         </Row>
         <Row className='navRow'>
           <Col lg={2} sm={12}>
