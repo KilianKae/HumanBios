@@ -8,10 +8,11 @@
 }
 
 .titleRow {
+  position: relative;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   text-align: center;
-  vertical-align: middle;
+  align-items: center;
   border-bottom: 1px solid white;
 }
 
@@ -19,6 +20,33 @@
   font-weight: bold;
   letter-spacing: 2px;
   color: white;
+}
+
+.supportLink {
+  position: absolute;
+  right: 0;
+  transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);   
+  -o-transform: rotate(-5deg);
+}
+
+.supportLink:hover {
+  text-decoration: none;
+}
+
+.supportText {
+  font-size: medium;
+  color: white;
+  margin: 0;
+  border: 1px solid white;
+  border-radius: .5em;
+  padding: .5rem;
+}
+
+.supportText:hover {
+  color: black;
+  border: 1px solid black;
 }
 
 .navRow {
@@ -30,6 +58,7 @@
 
 .navText {
   color: white;
+  margin: 0;
   padding: 2px;
   font-weight: bold;
   font-size: medium;
@@ -120,4 +149,22 @@
   font-weight: normal;
   font-size: small;
   letter-spacing: 0;
+}
+
+@media only screen and (max-width: 769px) {
+  .titleRow {
+    flex-direction: column;
+  }
+
+  .supportLink {
+    position: static;
+    right: auto;
+    align-self: flex-end;
+  }
+
+  .supportText {
+    font-size: smaller;
+    padding: .3rem;
+    margin-right: 1rem;
+  }
 }
