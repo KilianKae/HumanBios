@@ -1,5 +1,5 @@
 .landing-container {
-  background-color: #4ca580;
+  background-color: white;
   min-height: 100vh;
 }
 
@@ -13,13 +13,13 @@
   padding-bottom: 1rem;
   text-align: center;
   align-items: center;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #4ca580;
 }
 
 .title {
   font-weight: bold;
   letter-spacing: 2px;
-  color: white;
+  color: #4ca580;
 }
 
 .supportLink {
@@ -37,9 +37,9 @@
 
 .supportText {
   font-size: medium;
-  color: white;
+  color: #4ca580;
   margin: 0;
-  border: 1px solid white;
+  border: 1px solid #4ca580;
   border-radius: .5em;
   padding: .5rem;
 }
@@ -57,7 +57,7 @@
 }
 
 .navText {
-  color: white;
+  color: #4ca580;
   margin: 0;
   padding: 2px;
   font-weight: bold;
@@ -76,7 +76,7 @@
 .subtitle {
   font-weight: bold;
   font-size: medium;
-  color: white;
+  color: #4ca580;
   letter-spacing: 2px;
   margin-bottom: 1rem;
 }
@@ -105,7 +105,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #4ca580;
 }
 
 .botLink:hover {
@@ -125,7 +125,7 @@
 }
 
 .socialRow {
-  color: white;
+  color: #4ca580;
   border-top: 1px solid white;
   padding-top: 2rem;
   justify-content: space-around;
