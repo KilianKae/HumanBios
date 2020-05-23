@@ -14,9 +14,13 @@
   text-align: center;
   align-items: center;
   border-bottom: 1px solid #4ca580;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
+  margin-bottom: 0;
   font-weight: bold;
   letter-spacing: 2px;
   color: #4ca580;
@@ -45,8 +49,8 @@
 }
 
 .supportText:hover {
-  color: black;
-  border: 1px solid black;
+  color: #285744;
+  border: 1px solid #285744;
 }
 
 .navRow {
@@ -66,7 +70,7 @@
 }
 
 .navText:hover {
-  color: black;
+  color: #285744;
 }
 
 .navLink:hover {
@@ -110,7 +114,7 @@
 
 .botLink:hover {
   text-decoration: none;
-  color: black;
+  color: #285744;
 }
 
 .logo {
@@ -133,6 +137,7 @@
 
 .donateLink:hover {
   text-decoration: none;
+  color: #285744;
 }
 
 .copyButton:hover {
