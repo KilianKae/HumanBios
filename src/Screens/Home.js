@@ -9,6 +9,7 @@ import { copyToClipboard } from '../Utils/copyUtil';
 import logo from '../img/logo.png';
 
 import telegram from '../img/telegram.png';
+import messenger from '../img/messenger.png';
 import paypal from '../img/paypal.png';
 import ethereum from '../img/ethereum.png';
 import mail from '../img/mail.png';
@@ -24,9 +25,10 @@ function Home() {
     <div className='landing-container'>
       <Container>
         <Row className='titleRow'>
-          <Col>
+
+            <img className='logo' src={logo} alt='logo'></img>
+
             <h3 className='title'>Human Bios</h3>
-          </Col>
 
           <a className='supportLink' href='https://medium.com/@humanbios/would-you-like-to-support-us-8651396cc998'>
             <div className='supportText'>Want to support?</div>
@@ -38,34 +40,28 @@ function Home() {
               <h3 className='navText'>Mission</h3>
             </a>
           </Col>
-          <Col lg={2} sm={12}>
-            <a className='navLink'
-              href='https://t.me/joinchat/KTRuxhl949aHv0atuWPtyw'>
-              <h3 className='navText'>Dev Chat</h3>
+          <Col lg={4} sm={12}>
+            <a className='botLink' href='https://t.me/HumanbiOS_bot'>
+              <img className='logo' src={telegram} alt=''></img>
+              <span className='botText'>Telegram</span>
             </a>
           </Col>
           <Col lg={4} sm={12}>
-            <a className='botLink' href='https://t.me/HumanbiOS_bot'>
-              <img className='logo' src={logo} alt=''></img>
-              <span className='botText'>Try the Prototype!</span>
+            <a className='botLink' href='https://m.me/humanbiosorg'>
+              <img className='logo' src={messenger} alt=''></img>
+              <span className='botText'>Facebook</span>
             </a>
           </Col>
-          <Col lg={2} sm={12}>
-            <a className='navLink'
-              href='https://hackmd.io/p0vKHdtAR4C1ygXadeTncA?view'>
-              <h3 className='navText'>Bot Spec</h3>
-            </a>
-          </Col>
-          <Col lg={2} sm={12}>
+          {/* <Col lg={2} sm={12}>
             <a className='navLink' href='https://github.com/HumanbiOS'>
               <h3 className='navText'>Github</h3>
             </a>
-          </Col>
+          </Col> */}
         </Row>
         <Row className='videoRow'>
           <ReactPlayer
             className='video'
-            url="https://vimeo.com/402227952"
+            url="https://www.youtube.com/watch?v=Fx4sySwKDEk"
             playing
             controls
             width='100%'
